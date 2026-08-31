@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Administrar catálogo · Ferretería Naranjal</title>
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="../css/tema-admin.css" />
+</head>
+<body>
+  <p class="proposal"><strong>Propuesta 6 · Consola</strong> · Catálogo en localStorage. Sin login ni base de datos.</p>
+  <header class="wrap site-header">
+    <a class="brand" href="../index.html">Ferretería Naranjal</a>
+    <button type="button" data-nav-toggle aria-expanded="false">Menú</button>
+    <nav class="nav">
+      <a href="../index.html">Inicio</a>
+      <a href="../catalogo.html">Catálogo</a>
+      <a href="../servicios.html">Servicios</a>
+      <a href="../horario.html">Horario</a>
+      <a href="../mantenimiento.html">Mantenimiento</a>
+      <a href="../estilos.html">Estilos</a>
+      <a href="./" aria-current="page">Administrar</a>
+    </nav>
+  </header>
+  <main class="wrap">
+    <section class="hero">
+      <h1>Catálogo de productos</h1>
+      <p class="status" data-status>Cargando…</p>
+    </section>
+    <div class="admin-grid">
+      <div style="overflow:auto">
+        <table data-table></table>
+      </div>
+      <form data-form>
+        <input type="hidden" name="id" />
+        <label>Nombre <input name="nombre" required /></label>
+        <label>Categoría
+          <select name="categoria">
+            <option>Fijación</option>
+            <option>Herramientas</option>
+            <option>Pintura</option>
+            <option>Químicos</option>
+            <option>Piscina</option>
+            <option>Toldos</option>
+            <option>Clima</option>
+            <option>Cerrajería</option>
+          </select>
+        </label>
+        <label>Precio € <input name="precio" type="number" step="0.01" min="0" /></label>
+        <label>Unidad <input name="unidad" placeholder="ud, caja, consulta" /></label>
+        <label>Stock <input name="stock" type="number" min="0" /></label>
+        <label>Imagen <input name="imagen" placeholder="assets/cc/taladro.jpg" /></label>
+        <label>Descripción <textarea name="descripcion"></textarea></label>
+        <label><input name="visible" type="checkbox" checked /> Visible en tienda</label>
+        <div class="actions">
+          <button class="btn" type="submit">Guardar</button>
+          <button class="btn btn--danger" type="button" data-delete>Eliminar</button>
+          <button class="btn btn--ghost" type="button" data-reset>Restaurar semilla</button>
+          <button class="btn btn--ghost" type="button" data-export>Exportar JSON</button>
+        </div>
+      </form>
+    </div>
+  </main>
+  <footer class="wrap site-footer">
+    <span>Admin</span>
+    <span data-version>v0.1.0</span>
+  </footer>
+  <script type="module" src="../js/admin.js"></script>
+</body>
+</html>

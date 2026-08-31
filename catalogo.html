@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Catálogo · Ferretería Naranjal</title>
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/tema-almacen.css" />
+</head>
+<body>
+  <p class="proposal"><strong>Propuesta 2 · Almacén</strong> · IBM Plex · verde y amarillo de obra · botones píldora.</p>
+  <header class="wrap site-header">
+    <a class="brand" href="index.html">Ferretería Naranjal</a>
+    <button type="button" data-nav-toggle aria-expanded="false">Menú</button>
+    <nav class="nav">
+      <a href="index.html">Inicio</a>
+      <a href="catalogo.html" aria-current="page">Catálogo</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="horario.html">Horario</a>
+      <a href="mantenimiento.html">Mantenimiento</a>
+      <a href="estilos.html">Estilos</a>
+      <a href="admin/">Administrar</a>
+    </nav>
+  </header>
+  <main class="wrap">
+    <section class="hero">
+      <h1>Artículos de tienda</h1>
+      <p>Listado local, sin pasarela ni base de datos. Si editas en Administración, los cambios quedan en este navegador.</p>
+      <p><a class="btn" href="admin/">Abrir administración</a></p>
+    </section>
+    <p><input class="search" data-search type="search" placeholder="Buscar tornillos, cloro, lona…" /></p>
+    <div class="filters" data-filters></div>
+    <section class="grid cards" data-catalog></section>
+  </main>
+  <footer class="wrap site-footer">
+    <span>Catálogo v0.1.0</span>
+    <span data-version>v0.1.0</span>
+  </footer>
+  <script type="module" src="js/catalogo.js"></script>
+</body>
+</html>

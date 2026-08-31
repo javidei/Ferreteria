@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Horario · Ferretería Naranjal</title>
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/tema-barrio.css" />
+</head>
+<body>
+  <p class="proposal"><strong>Propuesta 4 · Barrio</strong> · Fraunces + Nunito · terracota · botones irregulares.</p>
+  <header class="wrap site-header">
+    <a class="brand" href="index.html">Ferretería Naranjal</a>
+    <button type="button" data-nav-toggle aria-expanded="false">Menú</button>
+    <nav class="nav">
+      <a href="index.html">Inicio</a>
+      <a href="catalogo.html">Catálogo</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="horario.html" aria-current="page">Horario</a>
+      <a href="mantenimiento.html">Mantenimiento</a>
+      <a href="estilos.html">Estilos</a>
+      <a href="admin/">Administrar</a>
+    </nav>
+  </header>
+  <main class="wrap">
+    <section class="hero">
+      <h1>Cuándo estamos</h1>
+      <p data-hours-note>Horario de invierno.</p>
+    </section>
+    <table class="table">
+      <thead><tr><th>Día</th><th>Mañana</th><th>Tarde</th></tr></thead>
+      <tbody data-hours></tbody>
+    </table>
+    <div class="grid cards" style="margin-top:20px">
+      <article class="note"><h2>Festivos</h2><p data-festivos></p></article>
+      <article class="note"><h2>Urgencias</h2><p data-urgencias></p></article>
+    </div>
+    <p><a class="btn" href="servicios.html">Pedir visita</a></p>
+  </main>
+  <footer class="wrap site-footer">
+    <span>Horario</span>
+    <span data-version>v0.1.0</span>
+  </footer>
+  <script type="module" src="js/app.js"></script>
+  <script src="js/horario.js"></script>
+</body>
+</html>

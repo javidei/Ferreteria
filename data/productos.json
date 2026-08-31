@@ -1,0 +1,16 @@
+{
+  "productos": [
+    { "id": "p-001", "nombre": "Caja de tornillos surtidos", "categoria": "Fijación", "precio": 6.5, "unidad": "caja", "stock": 24, "visible": true, "imagen": "assets/cc/taladro.jpg", "descripcion": "Surtido de tornillos para madera y pared, con tacos." },
+    { "id": "p-002", "nombre": "Juego de brocas HSS", "categoria": "Herramientas", "precio": 12.9, "unidad": "juego", "stock": 11, "visible": true, "imagen": "assets/cc/taladro.jpg", "descripcion": "Brocas de 1 a 10 mm para metal y plástico." },
+    { "id": "p-003", "nombre": "Pintura plástica interior 4 L", "categoria": "Pintura", "precio": 18.4, "unidad": "bote", "stock": 16, "visible": true, "imagen": "assets/cc/pintura.jpg", "descripcion": "Blanco mate lavable. Otras tintas bajo pedido." },
+    { "id": "p-004", "nombre": "Silicona neutra", "categoria": "Químicos", "precio": 4.2, "unidad": "cartucho", "stock": 40, "visible": true, "imagen": "assets/cc/pintura.jpg", "descripcion": "Para baños, ventanas y juntas. Transparente o blanca." },
+    { "id": "p-005", "nombre": "Cloro granulado 5 kg", "categoria": "Piscina", "precio": 22, "unidad": "saco", "stock": 8, "visible": true, "imagen": "assets/cc/piscina.jpg", "descripcion": "Tratamiento de choque y mantenimiento de vaso." },
+    { "id": "p-006", "nombre": "Manguera flotante 9 m", "categoria": "Piscina", "precio": 19.5, "unidad": "ud", "stock": 5, "visible": true, "imagen": "assets/cc/piscina.jpg", "descripcion": "Para limpiafondos. Diámetro 32/38 mm." },
+    { "id": "p-007", "nombre": "Lona de toldo (medida)", "categoria": "Toldos", "precio": 0, "unidad": "consulta", "stock": 0, "visible": true, "imagen": "assets/cc/toldo.jpg", "descripcion": "Recambio de lona a medida. Precio según tejido y brazos." },
+    { "id": "p-008", "nombre": "Mando de toldo universal", "categoria": "Toldos", "precio": 29, "unidad": "ud", "stock": 4, "visible": true, "imagen": "assets/cc/toldo.jpg", "descripcion": "Compatible con varios motores. Confirmar frecuencia en tienda." },
+    { "id": "p-009", "nombre": "Filtro split doméstico", "categoria": "Clima", "precio": 8.9, "unidad": "ud", "stock": 14, "visible": true, "imagen": "assets/cc/aire.jpg", "descripcion": "Filtros lavables. Traer modelo del aparato." },
+    { "id": "p-010", "nombre": "Soporte de unidad exterior", "categoria": "Clima", "precio": 34, "unidad": "juego", "stock": 6, "visible": true, "imagen": "assets/cc/aire.jpg", "descripcion": "Escuadras para condensadora. Tacos no incluidos." },
+    { "id": "p-011", "nombre": "Cinta americana 50 mm", "categoria": "Fijación", "precio": 3.1, "unidad": "rollo", "stock": 30, "visible": true, "imagen": "assets/cc/taladro.jpg", "descripcion": "Plata, negra o verde. Para reparaciones rápidas." },
+    { "id": "p-012", "nombre": "Bombín de seguridad", "categoria": "Cerrajería", "precio": 27.5, "unidad": "ud", "stock": 7, "visible": true, "imagen": "assets/cc/taladro.jpg", "descripcion": "Medida a confirmar. Llaves de serreta." }
+  ]
+}

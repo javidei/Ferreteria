@@ -1,0 +1,46 @@
+{
+  "servicios": [
+    {
+      "id": "aires",
+      "nombre": "Aires acondicionados",
+      "resumen": "Montaje, carga de gas, limpieza y mantenimiento de splits y equipos domésticos.",
+      "incluye": ["Visita y presupuesto", "Instalación de split mural", "Mantenimiento anual", "Revisión de fugas"]
+    },
+    {
+      "id": "piscinas",
+      "nombre": "Mantenimiento de piscinas",
+      "resumen": "Puesta a punto, control de cloro y pH, recambios de bombas y limpiafondos.",
+      "incluye": ["Análisis de agua", "Limpieza de vaso y skimmers", "Revisión de filtración", "Productos de tratamiento"]
+    },
+    {
+      "id": "toldos",
+      "nombre": "Toldos",
+      "resumen": "Instalación, cambio de lona, motores y mantenimiento de brazos y cofres.",
+      "incluye": ["Medición en domicilio", "Lonas de recambio", "Motores y mandos", "Revisión de estructura"]
+    },
+    {
+      "id": "fontaneria",
+      "nombre": "Fontanería básica",
+      "resumen": "Grifos, cisternas, sifones y pequeñas reparaciones sin obra mayor.",
+      "incluye": ["Cambio de grifería", "Uniones y racores", "Detectar goteos", "Material en tienda"]
+    },
+    {
+      "id": "electricidad",
+      "nombre": "Electricidad doméstica",
+      "resumen": "Enchufes, puntos de luz, mecanismos y material certificado.",
+      "incluye": ["Sustitución de mecanismos", "Puntos de luz", "Cajas y canaleta", "Asesoramiento de sección"]
+    },
+    {
+      "id": "cerrajeria",
+      "nombre": "Cerrajería y llaves",
+      "resumen": "Copia de llaves, bombines, pomos y asesoramiento de seguridad.",
+      "incluye": ["Corte de llaves", "Bombines", "Candados", "Cerraduras de sobreponer"]
+    },
+    {
+      "id": "alquiler",
+      "nombre": "Alquiler de herramientas",
+      "resumen": "Taladros, rozadoras, escaleras y equipos de un día o un fin de semana.",
+      "incluye": ["Fianza en tienda", "Instrucciones de uso", "Recambios de brocas", "Devolución el mismo día"]
+    }
+  ]
+}

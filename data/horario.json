@@ -1,0 +1,15 @@
+{
+  "timezone": "Europe/Madrid",
+  "nota": "Horario de invierno. Los sábados de julio y agosto cerramos a las 13:30.",
+  "dias": [
+    { "dia": "Lunes", "manana": "09:00–14:00", "tarde": "17:00–20:30" },
+    { "dia": "Martes", "manana": "09:00–14:00", "tarde": "17:00–20:30" },
+    { "dia": "Miércoles", "manana": "09:00–14:00", "tarde": "17:00–20:30" },
+    { "dia": "Jueves", "manana": "09:00–14:00", "tarde": "17:00–20:30" },
+    { "dia": "Viernes", "manana": "09:00–14:00", "tarde": "17:00–20:30" },
+    { "dia": "Sábado", "manana": "09:00–14:00", "tarde": "Cerrado" },
+    { "dia": "Domingo", "manana": "Cerrado", "tarde": "Cerrado" }
+  ],
+  "festivos": "Cerrado 1 de enero, 6 de enero, Viernes Santo, 15 de agosto, 1 de noviembre y 25 de diciembre.",
+  "urgencias": "Aires y toldos: concertar visita en tienda o por teléfono. No hay servicio de 24 horas."
+}
