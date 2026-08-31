@@ -3,12 +3,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Estilos · Ferretería Naranjal</title>
+  <title>Identidad · Ferretería Naranjal</title>
   <link rel="stylesheet" href="css/base.css" />
-  <link rel="stylesheet" href="css/estilos-lab.css" />
+  <link rel="stylesheet" href="css/tema.css" />
 </head>
 <body>
-  <p class="proposal"><strong>Laboratorio de estilo</strong> · Elige uno y unificamos el resto de pantallas.</p>
   <header class="wrap site-header">
     <a class="brand" href="index.html">Ferretería Naranjal</a>
     <button type="button" data-nav-toggle aria-expanded="false">Menú</button>
@@ -18,49 +17,31 @@
       <a href="servicios.html">Servicios</a>
       <a href="horario.html">Horario</a>
       <a href="mantenimiento.html">Mantenimiento</a>
-      <a href="estilos.html" aria-current="page">Estilos</a>
+      <a href="estilos.html" aria-current="page">Identidad</a>
       <a href="admin/">Administrar</a>
     </nav>
   </header>
-  <main class="wrap lab">
+  <main class="wrap">
     <section class="hero">
-      <h1>Seis propuestas, todavía sin unificar</h1>
-      <p>Cada pantalla pública usa un tema distinto a propósito. Cuando elijas uno, copiamos tipografía, paleta y botones al resto.</p>
+      <p class="kicker">Marca unificada</p>
+      <h1>Azul de empresa y naranja de aviso.</h1>
+      <p>Toda la web usa el estilo de Inicio: Bebas Neue en títulos, Source Serif en texto, botones rectos y estos dos colores.</p>
     </section>
-    <article class="sample s1">
-      <h2>1. Industrial — Inicio</h2>
-      <p>Bebas Neue + Source Serif. Óxido y carbón. Botón recto de taller.</p>
-      <div class="row"><button class="b" type="button">Ver artículos</button><button class="b" type="button">Servicios</button></div>
-    </article>
-    <article class="sample s2">
-      <h2>2. Almacén — Catálogo</h2>
-      <p>IBM Plex. Verde de almacén y amarillo de obra. Botón píldora.</p>
-      <div class="row"><button class="b" type="button">Filtrar pintura</button><button class="b" type="button">Añadir al pedido</button></div>
-    </article>
-    <article class="sample s3">
-      <h2>3. Técnico — Servicios</h2>
-      <p>Space Grotesk. Azul de ficha técnica. Botón de contorno.</p>
-      <div class="row"><button class="b" type="button">Pedir visita</button><button class="b" type="button">Ver aires</button></div>
-    </article>
-    <article class="sample s4">
-      <h2>4. Barrio — Horario</h2>
-      <p>Fraunces + Nunito. Terracota de toldo. Botón irregular.</p>
-      <div class="row"><button class="b" type="button">Cómo llegar</button><button class="b" type="button">Llamar</button></div>
-    </article>
-    <article class="sample s5">
-      <h2>5. Taller — Mantenimiento</h2>
-      <p>Barlow Condensed. Blanco y negro de albarán. Botón sello.</p>
-      <div class="row"><button class="b" type="button">Ver créditos</button><button class="b" type="button">Abrir ficha</button></div>
-    </article>
-    <article class="sample s6">
-      <h2>6. Consola — Administración</h2>
-      <p>DM Sans + JetBrains Mono. Verde terminal. Botón de panel.</p>
-      <div class="row"><button class="b" type="button">Guardar catálogo</button><button class="b" type="button">Exportar JSON</button></div>
-    </article>
+    <section class="grid cards">
+      <div class="swatch swatch--blue">#042b7c</div>
+      <div class="swatch swatch--orange">#f84c08</div>
+    </section>
+    <section class="card" style="margin-top:22px">
+      <h2>Botones</h2>
+      <p>
+        <a class="btn" href="catalogo.html">Principal</a>
+        <a class="btn btn--ghost" href="servicios.html">Secundario</a>
+      </p>
+    </section>
   </main>
   <footer class="wrap site-footer">
-    <span>Estilos</span>
-    <span data-version>v0.1.0</span>
+    <span>Identidad</span>
+    <span data-version>v0.2.0</span>
   </footer>
   <script type="module" src="js/app.js"></script>
 </body>

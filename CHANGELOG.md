@@ -2,6 +2,14 @@
 
 El proyecto usa versiones de tres bloques (`x.x.x`).
 
+## [0.2.0] - 2026-08-31
+
+### Changed
+
+- Unifica todas las pantallas con el estilo de Inicio: Bebas Neue, Source Serif y botones rectos.
+- Aplica los colores de empresa `#042b7c` y `#f84c08`.
+- La página de comparador pasa a ser identidad de marca.
+
 ## [0.1.0] - 2026-08-31
 
 ### Added
