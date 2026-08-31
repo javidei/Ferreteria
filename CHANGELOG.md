@@ -2,6 +2,13 @@
 
 El proyecto usa versiones de tres bloques (`x.x.x`).
 
+## [0.2.2] - 2026-08-31
+
+### Changed
+
+- Tipografía retro de uso libre: **Pirata One** en títulos (aire Monkey Island) y **VT323** en texto (píxel tipo consola).
+- Ambas fuentes proceden de Google Fonts (licencia SIL OFL). No se usa la fuente de Minecraft, que no es gratuita.
+
 ## [0.2.1] - 2026-08-31
 
 ### Changed

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pirata+One&family=VT323&display=swap");
 
 :root {
   --brand-blue: #042b7c;
@@ -6,8 +6,8 @@
   --bg: #f6f3ee;
   --ink: #1c2433;
   --accent: #f84c08;
-  --font: "Source Serif 4", Georgia, serif;
-  --display: "Bebas Neue", Impact, sans-serif;
+  --font: "VT323", "Courier New", monospace;
+  --display: "Pirata One", "Palatino Linotype", serif;
   --card: #ffffff;
   --line: #d5dbe6;
   --shadow: #042b7c;
@@ -25,20 +25,20 @@ body { background: var(--bg); color: var(--ink); }
 
 .hero h1 {
   font-family: var(--display);
-  font-size: clamp(2.6rem, 7vw, 5rem);
+  font-size: clamp(2.4rem, 6vw, 4.2rem);
   margin: 0 0 8px;
-  letter-spacing: .04em;
+  letter-spacing: .02em;
   color: var(--brand-blue);
 }
 
-.hero p { max-width: 46ch; font-size: 1.15rem; }
+.hero p { max-width: 52ch; font-size: 1.35rem; line-height: 1.35; }
 
 .kicker {
   color: var(--brand-orange);
-  font-family: var(--display);
-  letter-spacing: .16em;
+  font-family: var(--font);
+  letter-spacing: .12em;
   text-transform: uppercase;
-  font-size: .95rem;
+  font-size: 1.15rem;
 }
 
 .btn,
@@ -50,9 +50,9 @@ button.btn {
   color: #fff;
   text-decoration: none;
   font-family: var(--display);
-  letter-spacing: .08em;
-  text-transform: uppercase;
+  letter-spacing: .04em;
   cursor: pointer;
+  font-size: 1.15rem;
 }
 
 .btn--ghost {
@@ -96,8 +96,7 @@ form[data-form] {
 .filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 20px; }
 .filters button {
   font-family: var(--display);
-  letter-spacing: .06em;
-  text-transform: uppercase;
+  letter-spacing: .04em;
   border: 2px solid var(--brand-blue);
   background: #fff;
   color: var(--brand-blue);
@@ -138,20 +137,20 @@ table th, table td {
   background: var(--brand-blue);
   color: #fff;
   font-family: var(--display);
-  letter-spacing: .08em;
+  letter-spacing: .04em;
 }
 
 .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
 .shot { padding: 0; overflow: hidden; }
 .shot img { width: 100%; height: 180px; object-fit: cover; }
-.shot figcaption { padding: 10px 12px 14px; font-size: .95rem; }
-.credits { font-size: .9rem; }
+.shot figcaption { padding: 10px 12px 14px; font-size: 1.15rem; }
+.credits { font-size: 1.1rem; }
 .credits a { color: var(--brand-orange); }
 
 .admin-grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(280px, .9fr); gap: 20px; }
 @media (max-width: 860px) { .admin-grid { grid-template-columns: 1fr; } }
 form[data-form] { display: grid; gap: 10px; }
-label { display: grid; gap: 4px; font-size: .9rem; }
+label { display: grid; gap: 4px; font-size: 1.1rem; }
 input, textarea, select {
   font: inherit;
   padding: 8px 10px;
@@ -165,8 +164,7 @@ textarea { min-height: 72px; }
 .status { color: var(--brand-blue); }
 table button {
   font-family: var(--display);
-  letter-spacing: .06em;
-  text-transform: uppercase;
+  letter-spacing: .04em;
   border: 2px solid var(--brand-blue);
   background: #fff;
   color: var(--brand-blue);
@@ -189,8 +187,7 @@ table button {
 
 [data-nav-toggle] {
   font-family: var(--display);
-  letter-spacing: .08em;
-  text-transform: uppercase;
+  letter-spacing: .04em;
   border: 2px solid var(--brand-blue);
   background: #fff;
   color: var(--brand-blue);
