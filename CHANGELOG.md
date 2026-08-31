@@ -2,6 +2,14 @@
 
 El proyecto usa versiones de tres bloques (`x.x.x`).
 
+## [0.2.1] - 2026-08-31
+
+### Changed
+
+- El fondo deja de usar el azul de empresa a pantalla completa.
+- `#042b7c` y `#f84c08` quedan en la franja superior, el nombre, títulos, botones y la página de identidad.
+- El resto de la lectura va sobre papel claro.
+
 ## [0.2.0] - 2026-08-31
 
 ### Changed

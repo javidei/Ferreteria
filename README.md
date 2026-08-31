@@ -8,7 +8,7 @@ https://javidei.github.io/Ferreteria/
 
 ## Versión actual
 
-**0.2.0 — 31/08/2026**
+**0.2.1 — 31/08/2026**
 
 La versión visible está en el pie de cada página y en [`version.json`](version.json). El historial va en [`CHANGELOG.md`](CHANGELOG.md).
 
@@ -20,7 +20,7 @@ Semántico `MAJOR.MINOR.PATCH` en serie `0.x.x`:
 - `MINOR`: páginas nuevas, catálogo o cambios de identidad.
 - `PATCH`: textos, horarios, correcciones.
 
-Identidad visual unificada: azul `#042b7c`, naranja `#f84c08`, títulos Bebas Neue, texto Source Serif, botones rectos.
+Identidad visual: fondo papel claro; azul `#042b7c` y naranja `#f84c08` en marca, títulos y botones. Títulos Bebas Neue, texto Source Serif, botones rectos.
 
 ## Páginas
 

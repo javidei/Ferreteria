@@ -3,27 +3,32 @@
 :root {
   --brand-blue: #042b7c;
   --brand-orange: #f84c08;
-  --bg: #042b7c;
-  --bg-deep: #021a4d;
-  --ink: #f6efe6;
+  --bg: #f6f3ee;
+  --ink: #1c2433;
   --accent: #f84c08;
-  --banner: #021a4d;
-  --banner-ink: #f6efe6;
   --font: "Source Serif 4", Georgia, serif;
   --display: "Bebas Neue", Impact, sans-serif;
-  --card: #0a368f;
-  --line: rgba(246, 239, 230, .18);
+  --card: #ffffff;
+  --line: #d5dbe6;
+  --shadow: #042b7c;
 }
 
-body {
-  background: radial-gradient(circle at 10% 0, #0a3d9e, #042b7c 42%, #021a4d 100%);
+body { background: var(--bg); color: var(--ink); }
+
+.brand-bar {
+  height: 8px;
+  background: linear-gradient(90deg, var(--brand-blue) 0 55%, var(--brand-orange) 55% 100%);
 }
+
+.brand { color: var(--brand-blue); }
+.nav a[aria-current="page"] { color: var(--brand-orange); }
 
 .hero h1 {
   font-family: var(--display);
   font-size: clamp(2.6rem, 7vw, 5rem);
   margin: 0 0 8px;
   letter-spacing: .04em;
+  color: var(--brand-blue);
 }
 
 .hero p { max-width: 46ch; font-size: 1.15rem; }
@@ -42,7 +47,7 @@ button.btn {
   padding: 12px 22px;
   border: 2px solid var(--brand-orange);
   background: var(--brand-orange);
-  color: #042b7c;
+  color: #fff;
   text-decoration: none;
   font-family: var(--display);
   letter-spacing: .08em;
@@ -51,14 +56,15 @@ button.btn {
 }
 
 .btn--ghost {
-  background: transparent;
-  color: var(--ink);
+  background: #fff;
+  color: var(--brand-blue);
+  border-color: var(--brand-blue);
 }
 
 .btn--danger {
-  background: transparent;
-  border-color: #ffb4a2;
-  color: #ffb4a2;
+  background: #fff;
+  border-color: #9b2c2c;
+  color: #9b2c2c;
 }
 
 .card,
@@ -70,7 +76,7 @@ form[data-form] {
   background: var(--card);
   padding: 18px;
   border: 1px solid var(--line);
-  box-shadow: 6px 6px 0 #02153f;
+  box-shadow: 6px 6px 0 var(--shadow);
 }
 
 .card h2, .card h3,
@@ -79,6 +85,7 @@ form[data-form] {
   font-family: var(--display);
   margin-top: 0;
   letter-spacing: .06em;
+  color: var(--brand-blue);
 }
 
 .product { padding: 0; overflow: hidden; }
@@ -91,23 +98,24 @@ form[data-form] {
   font-family: var(--display);
   letter-spacing: .06em;
   text-transform: uppercase;
-  border: 2px solid var(--brand-orange);
-  background: transparent;
-  color: var(--ink);
+  border: 2px solid var(--brand-blue);
+  background: #fff;
+  color: var(--brand-blue);
   padding: 8px 14px;
   cursor: pointer;
 }
 .filters button.is-on {
   background: var(--brand-orange);
-  color: var(--brand-blue);
+  border-color: var(--brand-orange);
+  color: #fff;
 }
 
 .search {
   width: 100%;
   max-width: 420px;
   padding: 10px 12px;
-  border: 2px solid var(--brand-orange);
-  background: #021a4d;
+  border: 2px solid var(--brand-blue);
+  background: #fff;
   color: var(--ink);
   font: inherit;
 }
@@ -118,7 +126,7 @@ form[data-form] {
   width: 100%;
   border-collapse: collapse;
   background: var(--card);
-  box-shadow: 6px 6px 0 #02153f;
+  box-shadow: 6px 6px 0 var(--shadow);
 }
 .table th, .table td,
 table th, table td {
@@ -126,7 +134,12 @@ table th, table td {
   text-align: left;
   border-bottom: 1px solid var(--line);
 }
-.table th { background: #021a4d; color: var(--brand-orange); font-family: var(--display); letter-spacing: .08em; }
+.table th {
+  background: var(--brand-blue);
+  color: #fff;
+  font-family: var(--display);
+  letter-spacing: .08em;
+}
 
 .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
 .shot { padding: 0; overflow: hidden; }
@@ -143,20 +156,20 @@ input, textarea, select {
   font: inherit;
   padding: 8px 10px;
   border: 2px solid var(--line);
-  background: #021a4d;
+  background: #fff;
   color: inherit;
 }
 textarea { min-height: 72px; }
 .actions { display: flex; flex-wrap: wrap; gap: 8px; }
 .mono { font-variant-numeric: tabular-nums; }
-.status { color: var(--brand-orange); }
+.status { color: var(--brand-blue); }
 table button {
   font-family: var(--display);
   letter-spacing: .06em;
   text-transform: uppercase;
-  border: 2px solid var(--brand-orange);
-  background: transparent;
-  color: var(--ink);
+  border: 2px solid var(--brand-blue);
+  background: #fff;
+  color: var(--brand-blue);
   padding: 6px 12px;
   cursor: pointer;
 }
@@ -169,17 +182,17 @@ table button {
   font-family: var(--display);
   letter-spacing: .08em;
   text-transform: uppercase;
-  box-shadow: 6px 6px 0 #02153f;
+  box-shadow: 6px 6px 0 var(--shadow);
 }
-.swatch--blue { background: #042b7c; color: #f6efe6; border: 1px solid var(--line); }
-.swatch--orange { background: #f84c08; color: #042b7c; }
+.swatch--blue { background: #042b7c; color: #fff; }
+.swatch--orange { background: #f84c08; color: #fff; }
 
 [data-nav-toggle] {
   font-family: var(--display);
   letter-spacing: .08em;
   text-transform: uppercase;
-  border: 2px solid var(--brand-orange);
-  background: transparent;
-  color: var(--ink);
+  border: 2px solid var(--brand-blue);
+  background: #fff;
+  color: var(--brand-blue);
   padding: 8px 14px;
 }
